@@ -1,0 +1,271 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Rubik:wght@400;500;600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+.header{
+    padding: 37px 165px;
+    background: #3E8989;
+}
+.header__wrap{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header__nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav__link{ 
+    color: white;
+    padding: 5px 30px;
+    font-family: 'Rubik', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    border-bottom: 3px solid transparent;
+    transition: 0.4s;
+
+}
+.nav__link:hover {
+    border-bottom: 3px solid white;
+    
+}
+.search{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.search__t{
+    width: 216px;
+    padding: 8px 20px;
+    border: none;
+    border-radius: 20px 0px 0px 20px;
+    outline: none;
+    font-family: 'Rubik', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.search__btn{
+background: #295E5E;
+    border-radius: 0px 20px 20px 0px;
+    padding: 9px 20px;
+    border: none;
+    color: white;
+    font-family: 'Rubik', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+transition: 400ms;
+}
+.search__btn:hover{
+color: black;
+}
+.banner{
+    background: url(../GoTrip/img/banner.png) no-repeat top center/cover;
+    height: 100vh;
+    color: white;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: max-content;
+    height: 100vh;
+}
+.banner__wrap{
+    display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+height: 100%;
+}
+.banner__h1{
+    font-family: 'Rubik' , sans-serif;
+font-size: 80px;
+font-weight: 600;
+line-height: 95px;
+letter-spacing: 0em;
+text-align: left;
+padding-bottom: 20px;
+}
+.banner__h2{
+    font-family: 'Rubik' , sans-serif;
+font-size: 40px;
+font-weight: 500;
+line-height: 47px;
+letter-spacing: 0em;
+text-align: left;
+padding-bottom: 50px;
+}
+.banner__btn{
+    font-family: 'Inter' , sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+    color: white;
+    background: #B4436C;
+    border-radius: 30px;
+    transition: 400ms;
+    padding: 14px 77px;
+}
+.banner__btn:hover{
+    background: white;
+    color: green;
+}
+.container{
+    max-width: 1140px;
+    padding: 0 15px;
+    margin: 0px auto;
+    width: 100%;
+    height: 100%;
+}
+.info{
+margin-top: 80px;
+}
+.about{
+    font-family: 'Inter' , sans-serif;
+font-size: 40px;
+font-weight: 600;
+line-height: 48px;
+text-align: center;
+margin-bottom: 50px;
+color: #3E8989;
+}
+.info__wrap{
+display: flex;
+
+margin-bottom: 97px;
+}
+.about__t{
+    font-family: 'Rubik' , sans-serif;
+    font-size: 18px;
+font-weight: 400;
+line-height: 21px;
+letter-spacing: 0em;
+text-align: left;
+max-width: 524px;
+width: 100%;
+margin-bottom: 20px;
+margin-left: 20px;
+}
+.about__t:last-child{
+    margin: 0;
+    margin-left: 20px;
+}
+.about__catalog{
+    font-family: 'Inter' , sans-serif;
+font-size: 40px;
+font-weight: 600;
+line-height: 48px;
+color: #3E8989;
+text-align: center;
+margin-bottom: 53px;
+
+}
+.cotalog__wrap{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cotalog__card{
+    display: flex;
+    align-items: center;
+    width: 15%;
+    flex-direction: column;
+}
+.cotalog__img{
+display: flex;
+justify-content: center;
+align-items: center;
+background: #EFEFEF;
+height: 300px;
+}
+.cotalog__link{
+    font-family: 'Inter' , sans-serif;
+font-size: 24px;
+font-weight: 600;
+line-height: 29px;
+color: black;
+margin-top: 30px;
+transition: 400ms;
+}
+.cotalog__link:hover{
+    color: green;
+  
+}
+.contacts{
+    font-family: 'Inter' , sans-serif;
+font-size: 40px;
+font-weight: 600;
+line-height: 48px;
+color: #3E8989;
+margin-top: 100px;
+display: flex;
+
+}
+.contacts__wrap{
+    display: flex;
+    justify-content: space-between;
+}
+.contacts__p{
+    font-family: 'Rubik' , sans-serif;
+font-size: 20px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0em;
+text-align: left;
+width: 555px;
+margin-top: 50px;
+
+}
+.contacts__n{
+    font-family: 'Rubik' , sans-serif;
+font-size: 20px;
+font-weight: 400;
+line-height: 24px;
+margin-bottom: 20px;
+color: black;
+display: flex;
+justify-content: flex-end;
+
+}
+.contacts__m{
+    font-family: 'Rubik' , sans-serif;
+font-size: 20px;
+font-weight: 400;
+line-height: 24px;
+color: black;
+display: flex;
+justify-content: flex-end;
+}
+.footer{
+    background: #3E8989;
+    padding: 40px 0 15px;
+    margin-top: 104px;
+}
+.footer__wrap{
+    display: flex;
+    justify-content: center;
+}
+.footer__p{
+    font-family: 'Rubik' , sans-serif;
+font-size: 14px;
+font-weight: 400;
+line-height: 17px;
+display: flex;
+justify-content: center;
+align-items: center;
+color: white;
+margin-top: 59px;
+margin-bottom: 15px;
+}
